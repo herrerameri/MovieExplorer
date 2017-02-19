@@ -64,6 +64,8 @@
                                         <RowDefinition Height="Auto" />
                                         <RowDefinition Height="Auto" />
                                         <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
                                     </Grid.RowDefinitions>
 
                                     <controls:StarRarting
@@ -99,7 +101,7 @@
                                         Text="{Binding TvShow.Status}"
                                         TextWrapping="Wrap" />
                                     <TextBlock
-                                        Grid.Row="5"
+                                        Grid.Row="6"
                                         Width="170"
                                         Margin="10,0,0,0"
                                         HorizontalAlignment="Left"
@@ -109,7 +111,7 @@
                                         Text="{Binding TvShow.NumEpisodes}"
                                         TextWrapping="Wrap" />
                                     <TextBlock
-                                        Grid.Row="5"
+                                        Grid.Row="7"
                                         Width="170"
                                         Margin="10,0,0,0"
                                         HorizontalAlignment="Left"

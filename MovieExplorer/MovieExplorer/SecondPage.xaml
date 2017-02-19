@@ -12,7 +12,7 @@
 
 
     <Grid Background="Black">
-        <Hub Header="{Binding Film.Title, Mode=TwoWay}">
+        <Hub Width="Auto" Header="{Binding Film.Title, Mode=TwoWay}">
             <Hub.Background>
                 <ImageBrush
                     ImageSource="{Binding Film.Background, Mode=TwoWay}"
@@ -104,7 +104,7 @@
                                         Text="Description" />
                                     <TextBlock
                                         Grid.Row="5"
-                                        Width="170"
+                                        Width="Auto"
                                         Margin="10,0,0,0"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Center"

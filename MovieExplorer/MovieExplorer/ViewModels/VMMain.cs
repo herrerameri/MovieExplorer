@@ -300,9 +300,11 @@ namespace MovieExplorer.ViewModels
         {
             if (visibleMoviePivot) {
                 MovieCollection.Clear();
+                RaisePropertyChanged("NumResultsMovies");
             }
             else { 
                 TvShowCollection.Clear();
+                RaisePropertyChanged("NumResultsTvShows");
             }
         }
         #endregion
